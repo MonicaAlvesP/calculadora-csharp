@@ -1,0 +1,42 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code files
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+
+# Visual Studio temporary files
+*.cache
+*.log
+*.sln.ide
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore system-specific files
+.DS_Store        # macOS
+Thumbs.db       # Windows
+*.tmp           # Temporary files
+*.bak           # Backup files
+
+# Ignore specific configuration files
+*.env           # Environment variable files
+*.local         # Local configuration files
+*.config        # Configuration files
